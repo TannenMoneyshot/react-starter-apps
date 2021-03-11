@@ -14,6 +14,10 @@ h1 {
   margin: 30px;
 }
 
+ul {
+  list-style-type: none;
+}
+
 .languages {
   height: 400px;
   width: 400px;

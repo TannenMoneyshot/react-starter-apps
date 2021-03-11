@@ -7,7 +7,7 @@ class Voting extends Component{
 
 	render(){
 		return(
-			<div>
+			<div className = "languages">
 				 Welcome to the Voting app 
 				 
 			<WidgetList />	 

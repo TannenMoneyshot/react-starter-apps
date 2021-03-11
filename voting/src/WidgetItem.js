@@ -10,8 +10,8 @@ componentDidMount(){
 }
     render(){
         return (
-            <div>
-                <div>{this.state.count}</div>
+            <div className = "language">
+                <div className = "voteCount">{this.state.count}</div>
                 <div>{this.props.widgetName}</div>
                 <button onClick = {() => this.updateCounter()}>vote</button>
             </div>
