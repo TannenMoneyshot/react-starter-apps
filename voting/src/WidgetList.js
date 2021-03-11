@@ -16,11 +16,7 @@ class WidgetList extends Component {
         return (
             <div>
                 <ul className = "languages">
-                    {languageList.map((element) => {
-                        document.createElement("li").innerHTML =`${<WidgetItem />}` 
-                    }
-                    )
-                    }
+                    {languageList.map((language) => <li><WidgetItem widgetName={language.name}/></li>)}
                 </ul>
             </div>
         )
